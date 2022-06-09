@@ -13,7 +13,7 @@ The MIPS register usage convention is followed:
 * $t registers: temporary, not preserved across procedure calls
 * $s registers: saved values, preserved across procedure calls
 * $a registers: parameters passed to procedures, not preserved across procedure calls
-* $v registers: procecure return results, syscalls ($v0)
+* $v registers: procedure return results, syscalls ($v0)
 * $ra register: return address
 * $sp register: stack pointer
 * $fp register: frame pointer
